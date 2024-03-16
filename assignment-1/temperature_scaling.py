@@ -17,7 +17,7 @@ class ModelWithTemperature(nn.Module):
         self.temperature = nn.Parameter(torch.ones(1) * 1.5)
 
     def forward(self, input):
-        logits = self.model(input)
+        logits, _ = self.model(input)
         return self.temperature_scale(logits)
 
     def temperature_scale(self, logits):
@@ -45,7 +45,7 @@ class ModelWithTemperature(nn.Module):
         with torch.no_grad():
             for input, label in valid_loader:
                 input = input#.cuda()
-                logits = self.model(input)
+                logits, _ = self.model(input)
                 logits_list.append(logits)
                 labels_list.append(label)
             logits = torch.cat(logits_list)#.cuda()
@@ -59,7 +59,7 @@ class ModelWithTemperature(nn.Module):
         # Next: optimize the temperature w.r.t. NLL
         optimizer = optim.LBFGS([self.temperature], lr=0.01, max_iter=50)
 
-        def evfal():
+        def eval():
             optimizer.zero_grad()
             loss = nll_criterion(self.temperature_scale(logits), labels)
             loss.backward()

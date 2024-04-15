@@ -1,0 +1,8 @@
+id,Open_n_val,High_n_val,Low_n_val,Close_n_val,Volume_n_val,SMA_10_val,SMA_20_val,CMO_14_val,High_n-Low_n_val,Open_n-Close_n_val,SMA_20-SMA_10_val,Close_n_slope_3_val,Close_n_slope_5_val,Close_n_slope_10_val,Open_n_changelen_val,High_n_changelen_val,Low_n_changelen_val,Close_n_changelen_val,High_n-Low_n_changelen_val,Open_n-Close_n_changelen_val,SMA_20-SMA_10_changelen_val,Close_n_slope_3_changelen_val,Close_n_slope_5_changelen_val,Close_n_slope_10_changelen_val,row_num
+OCPY.AF,0.25,0.0,0.25,0.25,0.0,0.25,0.0,0.75,0.0,0.5,0.25,0.75,0.75,0.5,0.75,0.5,1.0,0.5,0.25,0.5,0.75,0.5,0.25,0.75,100
+QNOHE.AF,0.25,0.25,0.5,0.25,0.0,0.25,0.25,1.0,0.0,0.5,0.0,0.5,1.0,1.0,1.0,0.25,0.75,0.5,0.0,0.5,0.0,0.0,0.5,0.5,100
+ONWNWUYQAT.AF,0.25,0.0,0.25,0.25,0.0,0.25,0.5,0.75,0.0,0.25,0.75,0.75,1.0,0.75,0.5,0.25,1.0,0.5,0.0,0.0,0.25,0.75,1.0,1.0,100
+ARFGYRVAQ.AF,1.0,0.75,1.0,1.0,0.0,0.75,0.75,0.5,0.0,0.5,0.75,0.5,0.5,0.5,0.5,0.5,0.75,0.75,0.25,0.25,0.25,0.5,0.5,0.25,100
+HYGENPRZPB.AF,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.25,0.0,0.5,0.5,0.75,0.75,0.25,0.75,0.5,1.0,1.0,0.0,0.5,0.5,0.25,1.0,0.0,100
+ONWNW-NHGB.AF,0.25,0.0,0.25,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.75,0.5,0.25,0.25,1.0,0.0,0.75,0.5,0.0,0.75,0.75,1.0,0.5,1.0,100
+ONWSVANAPR.AF,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.25,0.0,0.5,0.75,0.5,0.25,0.5,0.5,0.5,0.75,0.75,0.5,0.25,0.25,0.0,0.25,0.75,100
